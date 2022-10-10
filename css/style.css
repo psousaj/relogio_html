@@ -30,7 +30,7 @@ body{
 
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (max-width: 426px) {
     .clock{
         width: 250px;
         height: 250px;
