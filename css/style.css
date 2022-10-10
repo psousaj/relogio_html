@@ -13,7 +13,6 @@ body{
         #ffcc70 100%
     );
     height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,15 +28,17 @@ body{
     border: 2px solid black;
     position: relative;
 
-    @media screen (max-width: 475px) {
-        width: 300px;
-        height: 300px;
+}
+
+@media only screen and (min-width: 420px) {
+    .clock{
+        width: 500px;
+        height: 500px;
         background-color: #FFF;
         border-radius: 50%;
         border: 2px solid black;
         position: relative;
-    }
-
+    }   
 }
 
 .clock .number{
