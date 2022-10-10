@@ -32,8 +32,8 @@ body{
 
 @media only screen and (min-width: 420px) {
     .clock{
-        width: 500px;
-        height: 500px;
+        width: 250px;
+        height: 250px;
         background-color: #FFF;
         border-radius: 50%;
         border: 2px solid black;
